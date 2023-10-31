@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<GridPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeUserLocController">
+    <children>
+        <Pane prefHeight="131.0" prefWidth="1600.0" style="-fx-background-color: transperent;" GridPane.columnSpan="3">
+            <children>
+                <Button fx:id="signout" layoutX="1321.0" layoutY="77.0" mnemonicParsing="false" onAction="#Signout" prefHeight="49.0" prefWidth="63.0" style="-fx-background-radius: 100; -fx-background-color: transperent;" text="&lt;">
+                    <font>
+                        <Font name="System Bold" size="17.0" />
+                    </font>
+                </Button>
+                <Label fx:id="userN" layoutX="98.0" layoutY="62.0" prefHeight="50.0" prefWidth="217.0" text="Account" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="26.0" />
+                    </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.47317073170731705">
+                           <color>
+                              <Color red="0.5799999833106995" green="0.34220001101493835" blue="0.34220001101493835" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.526829268292683">
+                           <color>
+                              <Color red="0.5799999833106995" green="0.34220001101493835" blue="0.34220001101493835" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.6170731707317072">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.3706800043582916" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.7170731707317073">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.3706800043582916" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8195121951219513">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.3706800043582916" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8414634146341463">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.36215999722480774" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8780487804878048">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.36215999722480774" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8951219512195121">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.36215999722480774" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.18557505309581757" green="0.5894736647605896" blue="0.3807927370071411" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+                </Label>
+            <ImageView fitHeight="49.0" fitWidth="78.0" layoutX="1285.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Scroll%20imag/back-24838_1280.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="95.0" layoutX="14.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202023-10-28%20at%2008.21.12_cc91abad.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="315.0" layoutY="43.0" prefHeight="53.0" prefWidth="787.0" text="&quot;Move2E - Empowering Village Commerce&quot;">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.6170731707317072">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.3706800043582916" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.7170731707317073">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.3706800043582916" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8195121951219513">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.3706800043582916" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8414634146341463">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.36215999722480774" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8780487804878048">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.36215999722480774" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8951219512195121">
+                           <color>
+                              <Color red="0.20880000293254852" green="0.7200000286102295" blue="0.36215999722480774" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.18557505309581757" green="0.5894736647605896" blue="0.3807927370071411" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </Label>
+            </children>
+        </Pane>
+        <ScrollPane prefWidth="1400.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="671.0" prefWidth="1403.0">
+               <children>
+                  <ImageView fitHeight="656.0" fitWidth="1395.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@Scroll%20imag/vivid-blurred-colorful-background.jpg" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="72.0" layoutY="54.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC; -fx-border-width: 7;">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@MedicalImage.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="shopN1" layoutX="40.0" layoutY="173.0" prefHeight="47.0" prefWidth="246.0" text="           Vihay Medical" textFill="#20718e">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Label>
+                        <Button fx:id="btn1" layoutX="248.0" layoutY="88.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" style="-fx-background-radius: 50; -fx-background-color: #EEB02A;" text=" Buy Products" textFill="#f2e7ec">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="957.0" layoutY="70.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC; -fx-border-width: 7;">
+                     <children>
+                        <ImageView fx:id="img3" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@shop_images/Clothes_narhe.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="shopN3" layoutX="38.0" layoutY="173.0" prefHeight="47.0" prefWidth="258.0" text="      Paridhan Dresses" textFill="#20718e">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Label>
+                        <Button fx:id="btn3" layoutX="243.0" layoutY="87.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" style="-fx-background-radius: 50; -fx-background-color: #EEB02A;" text=" Buy Products" textFill="#faf4f7">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="508.0" layoutY="60.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC; -fx-border-width: 7;">
+                     <children>
+                        <ImageView fx:id="img2" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@shop_images/veg_narhe.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="shopN2" layoutX="33.0" layoutY="173.0" prefHeight="47.0" prefWidth="259.0" text="          Shriji BhajiPala" textFill="#20718e">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Label>
+                        <Button fx:id="btn2" layoutX="243.0" layoutY="87.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" style="-fx-background-radius: 50; -fx-background-color: #EEB02A;" text=" Buy Products" textFill="#eae3e6">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="80.0" layoutY="362.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC; -fx-border-width: 7;">
+                     <children>
+                        <ImageView fx:id="img4" fitHeight="152.0" fitWidth="205.0" layoutX="25.0" layoutY="21.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@shop_images/furniture.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="shopN4" layoutX="40.0" layoutY="180.0" prefHeight="47.0" prefWidth="263.0" text="           KM Furniture" textFill="#20718e">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Label>
+                        <Button fx:id="btn4" layoutX="247.0" layoutY="84.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" style="-fx-background-radius: 50; -fx-background-color: #EEB02A;" text=" Buy Products" textFill="#ece5e9">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="510.0" layoutY="359.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC; -fx-border-width: 7;">
+                     <children>
+                        <ImageView fx:id="img5" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@shop_images/gift_narhe.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="shopN5" layoutX="41.0" layoutY="173.0" prefHeight="47.0" prefWidth="282.0" text="             Royal Gift" textFill="#20718e">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Label>
+                        <Button fx:id="btn5" layoutX="243.0" layoutY="86.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" style="-fx-background-radius: 50; -fx-background-color: #EEB02A;" text=" Buy Products" textFill="#efe5ea">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="952.0" layoutY="358.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC; -fx-border-width: 7;">
+                     <children>
+                        <ImageView fx:id="img6" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@shop_images/bookstore.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="shopN6" layoutX="38.0" layoutY="173.0" prefHeight="47.0" prefWidth="263.0" text="               JJ Books" textFill="#20718e">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Label>
+                        <Button fx:id="btn6" layoutX="243.0" layoutY="88.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" style="-fx-background-radius: 50; -fx-background-color: #EEB02A;" text=" Buy Products" textFill="#eae6e8">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <effect>
+                              <Reflection />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1600.0" minWidth="10.0" prefWidth="299.0" />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="84.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="771.0" minHeight="10.0" prefHeight="84.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+</GridPane>

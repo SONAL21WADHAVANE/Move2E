@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShopStoreProdController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1400.0" layoutY="1.8" pickOnBounds="true" AnchorPane.bottomAnchor="-1.7999999999999545" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.8">
+         <image>
+            <Image url="@Scroll%20imag/vivid-blurred-colorful-background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="35.0" layoutY="73.0" prefHeight="67.0" prefWidth="552.0" text="'''Welcome To move2e.com'''">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="shopN" layoutX="130.0" layoutY="165.0" prefHeight="59.0" prefWidth="346.0" text="Raja Store" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="addProd" layoutX="79.0" layoutY="342.0" mnemonicParsing="false" onAction="#addProucts" prefHeight="42.0" prefWidth="232.0" style="-fx-background-color: #4CEAE7;" text="Add Poduct">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="existProd" layoutX="75.0" layoutY="417.0" mnemonicParsing="false" onAction="#existProducts" prefHeight="52.0" prefWidth="226.0" style="-fx-background-color: #4CEAE7;" text="Existing Product">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <TextField fx:id="prodName" layoutX="923.0" layoutY="244.0" prefHeight="57.0" prefWidth="274.0" promptText="Prouct name">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="prodPrice" layoutX="923.0" layoutY="352.0" prefHeight="57.0" prefWidth="274.0" promptText="Product Price">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="708.0" layoutY="250.0" prefHeight="40.0" prefWidth="173.0" text="Product Name :">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="763.0" layoutY="112.0" prefHeight="71.0" prefWidth="409.0" style="-fx-background-color: #DC74EC;" text="   Add Prouduct Information">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.49" />
+         </effect>
+      </Label>
+      <Label layoutX="712.0" layoutY="355.0" prefHeight="40.0" prefWidth="173.0" text="Product Price :">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="imgbtn" layoutX="695.0" layoutY="442.0" mnemonicParsing="false" onAction="#pickImage" prefHeight="59.0" prefWidth="196.0" text="Pick Image">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="imageLabel" layoutX="923.0" layoutY="443.0" prefHeight="59.0" prefWidth="274.0" style="-fx-background-color: white;" text="  Product Image:">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="addP" layoutX="891.0" layoutY="552.0" mnemonicParsing="false" onAction="#storeProd" prefHeight="58.0" prefWidth="82.0" style="-fx-background-radius: 50;" text="Add">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="72.0" layoutY="645.0" mnemonicParsing="false" onAction="#redirect" prefHeight="72.0" prefWidth="73.0" style="-fx-background-radius: 50;" text="&lt;--">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="58.0" fitWidth="61.0" layoutX="46.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Scroll%20imag/bace8eb4c7fdd70353f31e25fe2d3e48-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="349.0" fitWidth="346.0" layoutX="342.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Scroll%20imag/shopkeeper.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+[
+	{
+		"id" : 1,
+		"shopOwner" : "Kunal",
+		"username" : "kunal@gmail.com",
+		"pass" : "Kunal@123",
+		"location" : "narhe",
+		"id1" : "2332",
+		"name" : "Shree Store",
+		"type" : "Genral store",
+		"shop_img" : ?
+	},
+	{
+		"id" : 2,
+		"shopOwner" : "Chetan",
+		"username" : "chetan@gmail.com",
+		"pass" : "Chetan@123",
+		"location" : "dhairi",
+		"id1" : "2354",
+		"name" : "Masule Stationary",
+		"type" : "Stationary store",
+		"shop_img" : ?
+	}
+]

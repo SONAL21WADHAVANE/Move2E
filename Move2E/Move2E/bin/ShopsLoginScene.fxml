@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShopLoginController">
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1400.0" layoutX="7.0" layoutY="-37.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@back.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="581.0" layoutY="157.0" prefHeight="83.0" prefWidth="395.0" text="Shopkeeper Log In" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="576.6" AnchorPane.leftAnchor="581.0" AnchorPane.rightAnchor="435.79999999999995" AnchorPane.topAnchor="157.0">
+               <font>
+                  <Font name="Bookman Old Style" size="42.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.47588831186294556" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <TextField fx:id="shopUName" layoutX="531.0" layoutY="305.0" prefHeight="40.0" prefWidth="382.0" promptText="Username or Email" style="-fx-background-radius: 20; -fx-border-radius: 20;" />
+            <TextField fx:id="shopPass" layoutX="531.0" layoutY="360.0" prefHeight="40.0" prefWidth="383.0" promptText="Password" style="-fx-background-radius: 20; -fx-border-radius: 20;" />
+            <Button fx:id="shopLogin" layoutX="809.0" layoutY="456.0" mnemonicParsing="false" onAction="#ShopLogin" prefHeight="39.0" prefWidth="89.0" style="-fx-background-radius: 20; -fx-background-color: blue;" text="Log in" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </Button>
+            <ImageView fitHeight="112.0" fitWidth="124.0" layoutX="469.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/D:/move2e/src/Images/M2Elogo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="regisShop" layoutX="600.0" layoutY="495.0" mnemonicParsing="false" onAction="#shopRegis" style="-fx-background-color: transparent;" text="CREATE NEW ACCOUNT" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.47588831186294556" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="shopForgotid" layoutX="748.0" layoutY="416.0" mnemonicParsing="false" onAction="#OnClickCreate" style="-fx-background-radius: 20; -fx-background-color: transparent;" text="FORGOT PASSWORD?" textAlignment="CENTER" textFill="#fc9732">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="475.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/D:/move2e/src/Images/Ukey.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="38.0" layoutX="469.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/D:/move2e/src/Images/Upng.png" />
+               </image>
+            </ImageView>
+            <CheckBox fx:id="ShopRemaindid" layoutX="539.0" layoutY="405.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="122.0" text="Remaind Me" textFill="#fc9732">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </CheckBox>
+            <Button fx:id="optionP" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#rediOptionP" prefHeight="52.0" prefWidth="75.0" style="-fx-background-radius: 30; -fx-background-color: #F8B331;" text="&lt;--" textFill="#434240">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

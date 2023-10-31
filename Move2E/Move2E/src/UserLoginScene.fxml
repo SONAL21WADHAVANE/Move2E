@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserLoginController">
+   <children>
+      <ImageView fitHeight="821.0" fitWidth="1438.0" layoutX="-19.0" layoutY="-8.0" pickOnBounds="true">
+         <image>
+            <Image url="@WhatsApp%20Image%202023-10-26%20at%2014.18.56_7b169c6e.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ULogin" layoutX="770.0" layoutY="456.0" mnemonicParsing="false" onAction="#UserLogin" prefHeight="36.0" prefWidth="81.0" style="-fx-background-color: blue; -fx-background-radius: 20;" text="Login" textFill="WHITE">
+         <effect>
+            <Reflection />
+         </effect>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="mainUsername" layoutX="494.0" layoutY="302.0" prefHeight="40.0" prefWidth="400.0" promptText="Username or Email" style="-fx-background-radius: 20;" />
+      <PasswordField fx:id="mainPassword" layoutX="495.0" layoutY="356.0" prefHeight="40.0" prefWidth="400.0" promptText="Password" style="-fx-background-radius: 20;" />
+      <CheckBox fx:id="mainRem" layoutX="499.0" layoutY="421.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="123.0" selected="true" text="Remember me?">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </CheckBox>
+      <Button fx:id="mainForgot" layoutX="706.0" layoutY="405.0" mnemonicParsing="false" onAction="#mainonAction" prefHeight="4.0" prefWidth="171.0" style="-fx-background-color: transparent;" text="forgot your password?">
+         <effect>
+            <Blend>
+               <topInput>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </topInput>
+            </Blend>
+         </effect>
+      </Button>
+      <ImageView fitHeight="129.0" fitWidth="143.0" layoutX="644.0" layoutY="40.0" pickOnBounds="true">
+         <image>
+            <Image url="@M2Elogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="561.0" layoutY="184.0" prefHeight="51.0" prefWidth="249.0" text="USER LOGIN">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7550565004348755" green="0.26152047514915466" blue="0.9052631855010986" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6658536585365853">
+                     <color>
+                        <Color red="0.7508999705314636" green="0.26100000739097595" blue="0.8999999761581421" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7568627595901489" green="0.26274511218070984" blue="0.9058823585510254" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="29.0" layoutX="438.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Ukey.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="53.0" layoutX="434.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Upng.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="createAcc" layoutX="563.0" layoutY="509.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="31.0" prefWidth="266.0" style="-fx-background-color: transparent;" text="CREATE NEW ACCOUNT" underline="true">
+         <effect>
+            <Blend>
+               <topInput>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </topInput>
+            </Blend>
+         </effect>
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="optionP" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" onAction="#rediOptionP" prefHeight="51.0" prefWidth="82.0" style="-fx-background-radius: 50; -fx-background-color: #c143e7;" text="&lt;--">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

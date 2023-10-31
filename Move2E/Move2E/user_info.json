@@ -1,0 +1,34 @@
+[
+	{
+		"id" : 1,
+		"username" : "darshan",
+		"email" : "jain@gmail.com",
+		"password" : "India@123",
+		"mobile" : "1234567890",
+		"location" : "Pune"
+	},
+	{
+		"id" : 2,
+		"username" : "sonal",
+		"email" : "sonal@gmail.com",
+		"password" : "Sonal@123",
+		"mobile" : "1234567890",
+		"location" : "Narhe"
+	},
+	{
+		"id" : 3,
+		"username" : "kunal",
+		"email" : "kunal@gmail.com",
+		"password" : "Kunal@123",
+		"mobile" : "1234567890",
+		"location" : "Dhule"
+	},
+	{
+		"id" : 4,
+		"username" : "Krishana",
+		"email" : "krishana@gmail.com",
+		"password" : "Krishana@123",
+		"mobile" : "1234567890",
+		"location" : "Pune"
+	}
+]

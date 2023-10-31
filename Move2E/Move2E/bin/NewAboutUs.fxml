@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AboutUscContlroller">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1400.0" pickOnBounds="true">
+         <image>
+            <Image url="@Scroll%20imag/vivid-blurred-colorful-background.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="138.0" layoutY="56.0" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="334.0" layoutY="31.0" text="📪 │ About Us │ 👥">
+               <font>
+                  <Font name="Tahoma Bold" size="49.0" />
+               </font>
+            </Label>
+            <Label layoutX="447.0" layoutY="121.0" text=" Empowering Village Commerce" textFill="#4063a4">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="281.0" layoutY="120.0" text="Move2E -" textFill="#711e1e">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+            <Text layoutX="146.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Move2E, a revolution in village commerce that brings the power of e-commerce " wrappingWidth="996.0001831054686">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="143.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" to your doorstep. We're on a mission to connect rural shop owners and their unique products " wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="147.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with a global audience while revitalizing and empowering village economies." wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="146.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Mission">
+               <font>
+                  <Font name="Calibri Bold" size="33.0" />
+               </font>
+            </Text>
+            <Text layoutX="150.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At Move2E, we believe that every shop, no matter how small, has something special to offer." wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="149.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We're here to bridge the gap between these local gems and the wider world. Our mission is to" wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="149.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="empower village shop owners to thrive in the digital age.Provide consumers with access to " wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="151.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="of high-quality, locally-sourced products.Foster economic growth and sustainability in rural " wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="149.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="communities" wrappingWidth="942.1369018554688">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="113.0" fitWidth="72.0" layoutX="161.0" layoutY="561.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202023-10-28%20at%2008.21.12_cc91abad.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="473.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group Members">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="113.0" fitWidth="72.0" layoutX="350.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202023-10-28%20at%2008.21.12_cc91abad.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="72.0" layoutX="538.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202023-10-28%20at%2008.21.12_cc91abad.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="72.0" layoutX="929.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202023-10-28%20at%2008.21.12_cc91abad.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="95.0" layoutX="722.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202023-10-28%20at%2008.23.21_50b5e5d9.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="133.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Darshan Jain" wrappingWidth="151.428466796875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="311.0" layoutY="671.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manish Sonawane" wrappingWidth="189.8284912109375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="510.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RadhaKrushna" wrappingWidth="189.8284912109375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="697.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sonal Wadhavane" wrappingWidth="189.8284912109375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="910.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanmay Pawar" wrappingWidth="132.2283935546875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Button fx:id="btn" layoutX="32.0" layoutY="20.0" mnemonicParsing="false" onAction="#back" prefHeight="41.0" prefWidth="50.0" style="-fx-background-radius: 30;" text="&lt;--">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

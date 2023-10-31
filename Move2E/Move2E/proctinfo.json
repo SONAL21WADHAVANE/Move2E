@@ -1,0 +1,30 @@
+[
+	{
+		"product_id" : 1,
+		"product_name" : "parle-g",
+		"product_price" : 10.00,
+		"product_image" : ?,
+		"id" : 1
+	},
+	{
+		"product_id" : 2,
+		"product_name" : "Cello pen",
+		"product_price" : 10.00,
+		"product_image" : ?,
+		"id" : 2
+	},
+	{
+		"product_id" : 3,
+		"product_name" : "NoteBook Classmate",
+		"product_price" : 70.00,
+		"product_image" : ?,
+		"id" : 2
+	},
+	{
+		"product_id" : 4,
+		"product_name" : "parle-g",
+		"product_price" : 10.00,
+		"product_image" : ?,
+		"id" : 1
+	}
+]

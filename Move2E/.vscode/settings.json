@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Move2EI\\Move2E\\src\\jar\\controlsfx-8.40.11.jar",
+        "d:\\Move2EI\\Move2E\\src\\jar\\mysql-connector-j-8.1.0.jar"
+    ]
+}

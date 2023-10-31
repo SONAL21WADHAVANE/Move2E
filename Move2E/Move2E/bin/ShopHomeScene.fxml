@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShopHomeController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1400.0" layoutX="-53.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@Scroll%20imag/vivid-blurred-colorful-background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="34.0" layoutY="82.0" prefHeight="67.0" prefWidth="548.0" text="'''Welcome To move2e.com'''" textFill="#0e2469">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="shopN" layoutX="110.0" layoutY="164.0" prefHeight="59.0" prefWidth="346.0" text="Raja Store" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7684210538864136" green="0.20491227507591248" blue="0.20491227507591248" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.17073170731707318">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.04800000041723251" blue="0.04800000041723251" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.32439024390243903">
+                     <color>
+                        <Color red="0.9607843160629272" green="0.32549020648002625" blue="0.7882353067398071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6414634146341462">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6587040015756821">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.04740740731358528" blue="0.04740740731358528" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7536585365853657">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.99650067294751">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.32156863808631897" blue="0.8039215803146362" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="addProd" layoutX="120.0" layoutY="314.0" mnemonicParsing="false" onAction="#addProucts" prefHeight="52.0" prefWidth="211.0" style="-fx-background-color: #4CEAE7;" text="Add Poduct">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.33" />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7684210538864136" green="0.20491227507591248" blue="0.20491227507591248" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.17073170731707318">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.04800000041723251" blue="0.04800000041723251" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.32439024390243903">
+                     <color>
+                        <Color red="0.9607843160629272" green="0.32549020648002625" blue="0.7882353067398071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6414634146341462">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6587040015756821">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.04740740731358528" blue="0.04740740731358528" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7536585365853657">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.99650067294751">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.32156863808631897" blue="0.8039215803146362" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="existProd" layoutX="120.0" layoutY="400.0" mnemonicParsing="false" onAction="#existProducts" prefHeight="52.0" prefWidth="211.0" style="-fx-background-color: #4CEAE7;" text="Existing Product">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.42" />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7684210538864136" green="0.20491227507591248" blue="0.20491227507591248" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.17073170731707318">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.04800000041723251" blue="0.04800000041723251" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.32439024390243903">
+                     <color>
+                        <Color red="0.9607843160629272" green="0.32549020648002625" blue="0.7882353067398071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6414634146341462">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6587040015756821">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.04740740731358528" blue="0.04740740731358528" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7536585365853657">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.99650067294751">
+                     <color>
+                        <Color red="0.7599999904632568" green="0.20520000159740448" blue="0.20520000159740448" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.32156863808631897" blue="0.8039215803146362" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="Signout" layoutX="1260.0" layoutY="22.0" mnemonicParsing="false" onAction="#signouthome" prefHeight="59.0" prefWidth="125.0" style="-fx-background-radius: 30; -fx-background-color: #F553C9;" text="&lt;-Sign Out">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <ImageView fitHeight="59.0" fitWidth="67.0" layoutX="34.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Scroll%20imag/bace8eb4c7fdd70353f31e25fe2d3e48-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="467.0" fitWidth="515.0" layoutX="408.0" layoutY="233.0" pickOnBounds="true">
+         <image>
+            <Image url="@Scroll%20imag/shopkeeper.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

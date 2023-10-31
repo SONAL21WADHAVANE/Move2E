@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" style="-fx-background-image: Blueback (1).jpg;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contactUs">
+   <children>
+      <Pane prefHeight="131.0" prefWidth="1600.0" style="-fx-background-color: #000075;" GridPane.columnSpan="3">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="371.0" layoutX="19.0" layoutY="29.0" pickOnBounds="true">
+               <image>
+                  <Image url="@WhatsApp_Image_2023-10-28_at_20.15.33_63abf549-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="664.0" layoutY="23.0" prefHeight="86.0" prefWidth="455.0" text="Move2E" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="59.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="539.0" layoutY="29.0" pickOnBounds="true">
+               <image>
+                  <Image url="@move2E_logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="1201.0" layoutY="24.0" text="eBit" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <AnchorPane prefHeight="819.0" prefWidth="1372.0" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="694.0" fitWidth="1608.0" layoutX="3.0" layoutY="78.4" pickOnBounds="true" AnchorPane.bottomAnchor="61.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="78.0">
+               <image>
+                  <Image url="@background.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="326.0" fitWidth="561.0" layoutX="22.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="442.0" fitWidth="312.0" layoutX="28.0" layoutY="131.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Homeback.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" layoutX="418.0" layoutY="152.0" prefHeight="342.0" prefWidth="941.0">
+               <children>
+                  <Label text="We wanted to take a moment to express our heartfelt" textFill="WHITE">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="50.0" prefWidth="884.0" text="gratitude for the invaluable guidance Core2Web have" textFill="WHITE">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="50.0" prefWidth="925.0" text="helping us navigate provided. through various challenges and" textFill="WHITE">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="50.0" prefWidth="894.0" text="Your expertise and support have been instrumental in" textFill="WHITE">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="50.0" prefWidth="855.0" text="achieve my goals.We truly appreciate the time and effort" textFill="WHITE">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="50.0" prefWidth="839.0" text="you've invested in our growth and development." textFill="WHITE">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Text fill="WHITE" layoutX="685.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANK YOU !" wrappingWidth="441.92352294921875">
+               <font>
+                  <Font size="69.0" />
+               </font>
+            </Text>
+            <Label layoutX="1198.0" layoutY="11.0" prefHeight="38.0" prefWidth="186.0" text="Developers" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="1600.0" minWidth="10.0" prefWidth="299.0" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="84.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="771.0" minHeight="10.0" prefHeight="84.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+</GridPane>

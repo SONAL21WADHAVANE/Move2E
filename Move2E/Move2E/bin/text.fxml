@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeUserLocController">
+    <children>
+        <Pane prefHeight="131.0" prefWidth="1600.0" style="-fx-background-color: #C60761;" GridPane.columnSpan="3">
+            <children>
+                <ImageView fitHeight="65.0" fitWidth="104.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@move2E_logo.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="signout" layoutX="189.0" layoutY="42.0" mnemonicParsing="false" onAction="#Signout" prefHeight="41.0" prefWidth="127.0" text="Sign Out">
+                    <font>
+                        <Font name="System Bold" size="17.0" />
+                    </font>
+                </Button>
+                <Button fx:id="contact" layoutX="754.0" layoutY="37.0" mnemonicParsing="false" onAction="#ContInfo" prefHeight="49.0" prefWidth="147.0" text="Contact">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Aboutus" layoutX="594.0" layoutY="37.0" mnemonicParsing="false" onAction="#Aboutas" prefHeight="49.0" prefWidth="132.0" text="About us">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Button>
+                <Label fx:id="userN" layoutX="15.0" layoutY="84.0" prefHeight="33.0" prefWidth="150.0" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="21.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <ScrollPane prefWidth="1400.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="671.0" prefWidth="1403.0">
+               <children>
+                  <ImageView fitHeight="656.0" fitWidth="1395.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@background.jpg" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="72.0" layoutY="54.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #F6C5FD;">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true" />
+                        <Label fx:id="shopN1" layoutX="30.0" layoutY="190.0" prefHeight="47.0" prefWidth="297.0" />
+                        <Button fx:id="btn1" layoutX="243.0" layoutY="89.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" text="Buy Products">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="957.0" layoutY="70.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC;">
+                     <children>
+                        <ImageView fx:id="img3" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true" />
+                        <Label fx:id="shopN3" layoutX="30.0" layoutY="190.0" prefHeight="47.0" prefWidth="286.0" />
+                        <Button fx:id="btn3" layoutX="243.0" layoutY="87.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" text="Buy Products">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="508.0" layoutY="60.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC;">
+                     <children>
+                        <ImageView fx:id="img2" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true" />
+                        <Label fx:id="shopN2" layoutX="30.0" layoutY="190.0" prefHeight="47.0" prefWidth="283.0" />
+                        <Button fx:id="btn2" layoutX="243.0" layoutY="87.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" text="Buy Products">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="80.0" layoutY="362.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC;">
+                     <children>
+                        <ImageView fx:id="img4" fitHeight="152.0" fitWidth="205.0" layoutX="25.0" layoutY="21.0" pickOnBounds="true" />
+                        <Label fx:id="shopN4" layoutX="30.0" layoutY="190.0" prefHeight="47.0" prefWidth="300.0" />
+                        <Button fx:id="btn4" layoutX="247.0" layoutY="84.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" text="Buy Products">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="510.0" layoutY="359.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC;">
+                     <children>
+                        <ImageView fx:id="img5" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true" />
+                        <Label fx:id="shopN5" layoutX="30.0" layoutY="190.0" prefHeight="47.0" prefWidth="299.0" />
+                        <Button fx:id="btn5" layoutX="243.0" layoutY="86.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" text="Buy Products">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="952.0" layoutY="358.0" prefHeight="250.0" prefWidth="370.0" style="-fx-background-color: #D5D8DC;">
+                     <children>
+                        <ImageView fx:id="img6" fitHeight="152.0" fitWidth="205.0" layoutX="26.0" layoutY="17.0" pickOnBounds="true" />
+                        <Label fx:id="shopN6" layoutX="30.0" layoutY="190.0" prefHeight="47.0" prefWidth="225.0" />
+                        <Button fx:id="btn6" layoutX="243.0" layoutY="88.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="108.0" text="Buy Products">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1600.0" minWidth="10.0" prefWidth="299.0" />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="84.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="771.0" minHeight="10.0" prefHeight="84.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+</GridPane>
